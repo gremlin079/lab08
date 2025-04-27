@@ -9,10 +9,6 @@ add_subdirectory(hello_world_application)
 add_subdirectory(solver_lib)
 
 
-add_executable(hello_world hello_world_application/hello_world.cpp)
-add_executable(solver solver_lib/solver.cpp)
-
-
 install(TARGETS hello_world solver DESTINATION bin)
 
 
