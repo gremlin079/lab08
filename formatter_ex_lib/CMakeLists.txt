@@ -4,7 +4,6 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_library(formatter_ex STATIC formatter_ex.cpp)
 install(TARGETS formatter_ex DESTINATION lib)
-install(DIRECTORY include/ DESTINATION include)
 target_include_directories(formatter_ex PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMAKE_SOURCE_DIR}/formatter_lib
 )
