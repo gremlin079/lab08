@@ -8,8 +8,8 @@ add_subdirectory(formatter_ex_lib)
 add_subdirectory(solver_lib)
 
 
-add_executable(hello_world src/hello_world.cpp)
-add_executable(solver src/solver.cpp)
+add_executable(hello_world hello_world.cpp)
+add_executable(solver solver.cpp)
 
 
 install(TARGETS hello_world solver DESTINATION bin)
