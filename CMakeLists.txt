@@ -14,5 +14,3 @@ install(TARGETS hello_world solver DESTINATION bin)
 
 install(TARGETS formatter formatter_ex solver_lib DESTINATION lib)
 
-
-install(DIRECTORY include/ DESTINATION include)
