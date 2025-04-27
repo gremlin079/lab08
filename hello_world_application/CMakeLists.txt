@@ -8,4 +8,3 @@ target_include_directories(hello_world PRIVATE
     ${CMAKE_SOURCE_DIR}/formatter_ex_lib
     ${CMAKE_SOURCE_DIR}/formatter_lib
 )
-target_link_libraries(hello_world formatter_lib)
