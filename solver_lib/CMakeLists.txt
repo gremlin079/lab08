@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_library(solver_lib STATIC solver.cpp)
 target_include_directories(solver_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 install(TARGETS solver_lib DESTINATION lib)
-install(DIRECTORY include/ DESTINATION include)
 target_link_libraries(solver_lib PRIVATE formatter_ex)
 
 target_include_directories(solver_lib PUBLIC
