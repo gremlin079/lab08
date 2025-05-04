@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.10)
 
 project(lab05)
 
+option(BUILD_TESTS "Build tests" ON)
+
 
 add_subdirectory(formatter_lib)
 add_subdirectory(formatter_ex_lib)
