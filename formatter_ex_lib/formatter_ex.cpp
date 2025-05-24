@@ -3,6 +3,7 @@
 #include "formatter.h"
 #include <fstream>
 #include <cstdlib> 
+#include <iostream>
 
 void formatter(std::ostream& out, const std::string& text) {
     out << text << std::endl;
