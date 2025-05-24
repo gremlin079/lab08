@@ -1,6 +1,8 @@
 #include "formatter_ex.h"
 
 #include "formatter.h"
+#include <fstream>
+#include <cstdlib> 
 
 void formatter(std::ostream& out, const std::string& text) {
     out << text << std::endl;
