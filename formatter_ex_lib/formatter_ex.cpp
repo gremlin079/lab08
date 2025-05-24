@@ -1,5 +1,3 @@
-#include "formatter_ex.h"
-
 #include "formatter.h"
 #include <fstream>
 #include <cstdlib> 
