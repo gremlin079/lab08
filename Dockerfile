@@ -8,6 +8,8 @@ RUN apt-get update &&     apt-get install -y wget &&     wget https://github.com
 COPY . .
 WORKDIR .
 
+RUN find .
+
 RUN cmake -H. -B_build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=_install
 RUN cmake --build _build
 RUN cmake --build _build --target install
