@@ -4,6 +4,7 @@
 #include <fstream>
 #include <cstdlib> 
 #include <iostream>
+#include <string>
 
 void formatter(std::ostream& out, const std::string& text) {
     out << text << std::endl;
